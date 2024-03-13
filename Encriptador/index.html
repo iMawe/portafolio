@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <textarea id="input-text" placeholder="Ingresa tu texto aquí"></textarea>
+            <div class="options">
+                <label for="encrypt">Encriptar</label>
+                <input type="radio" name="option" id="encrypt" value="encrypt" checked>
+                <label for="decrypt">Desencriptar</label>
+                <input type="radio" name="option" id="decrypt" value="decrypt">
+            </div>
+            <div class="buttons-container">
+                <button onclick="processText()">Procesar</button>
+                <button onclick="copyToClipboard()">Copiar</button>
+                <button onclick="limpiarTexto()">Limpiar</button>
+            </div>
+        </div>
+        <div class="output-container">
+            <textarea id="output-text" placeholder="Salida de texto encriptado aquí" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
