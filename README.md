@@ -40,3 +40,8 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 3. Realiza tus cambios y haz commit de ellos (`git commit -am 'Añade nueva funcionalidad'`).
 4. Sube tus cambios al repositorio (`git push origin feature/nueva-funcionalidad`).
 5. Abre un Pull Request.
+
+## Pruebalo
+
+Puedes acceder a mi proyecto de GitHub Pages [aquí](https://imawe.github.io/portafolio/index.html).
+
